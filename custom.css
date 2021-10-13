@@ -6437,7 +6437,8 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #1abc9c;
+  /* color: #1abc9c; */
+  color: #008F8A;
 }
 .link-primary:hover, .link-primary:focus {
   color: #15967d;
@@ -7803,7 +7804,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 0.2;
+  --bs-bg-opacity: 0.15;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -11443,8 +11444,8 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -11459,7 +11460,7 @@ html {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
