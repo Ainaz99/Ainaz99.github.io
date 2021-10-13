@@ -3474,11 +3474,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #1abc9c;
+  color: #1a89bc;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #15967d;
+  color: #154296;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3946,7 +3946,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #1abc9c;
+  color: #1a53bc;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
