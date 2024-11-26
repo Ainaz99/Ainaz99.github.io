@@ -21,20 +21,23 @@
                 <name>Ainaz Eftekhar</name>
               </p>
               <p>
-                I am a PhD student at the <a href="https://www.washington.edu">University of Washington</a> in Computer Science and Engineering  supervised by <a href="https://homes.cs.washington.edu/~ali/">Prof. Ali Farhadi</a> (<a href="https://raivn.cs.washington.edu/index.html">RAIVN Lab</a>)
-                and <a href="http://ranjaykrishna.com/index.html">Prof. Ranjay Krishna</a>.
+                I am a PhD student at the <a href="https://www.washington.edu">University of Washington</a> in Computer Science and Engineering  supervised by <a href="https://homes.cs.washington.edu/~ali/">Prof. Ali Farhadi</a>
+                and <a href="http://ranjaykrishna.com/index.html">Prof. Ranjay Krishna</a>  (<a href="https://raivn.cs.washington.edu/index.html">RAIVN Lab</a>).
               </p>
               <p>
-                In summer 2023, I was a research intern in the <a href="https://prior.allenai.org/">PRIOR</a> team at
-                <a href="https://allenai.org/">Allen Institute for AI (AI2)</a> closely working with
+                In the summers of 2023 and 2024, I was a research intern with the <a href="https://prior.allenai.org/">PRIOR</a> team at the
+                <a href="https://allenai.org/">Allen Institute for AI (AI2)</a>, where I worked closely with
                 <a href="https://kuohaozeng.github.io/">Kuo-Hao Zeng</a> and
-                <a href="https://anikem.github.io/">Ani Kembhavi</a>.
+                <a href="https://ehsanik.github.io/">Kiana Ehsani</a>.
               </p>
               <p>
                 Previously, I received my Bachelor of Science in Computer Engineering from <a href="https://en.sharif.edu">Sharif University of Technology</a>.
-                During the last year of my Bachelor, I was a visiting student at <a href="https://www.epfl.ch/en/">EPFL</a> where I was working with at
-                <a href="https://vilab.epfl.ch">VILAB</a> with <a href="https://vilab.epfl.ch/zamir/">Prof. Amir Zamir</a>.
+                During the final year of my bachelor's program, I was a visiting student at <a href="https://www.epfl.ch/en/">EPFL</a> where I worked in
+                <a href="https://vilab.epfl.ch">VILAB</a> under the supervision of <a href="https://vilab.epfl.ch/zamir/">Prof. Amir Zamir</a>.
 
+              </p>
+              <p>
+                My research interests lie in the intersection of computer vision, machine learning, and embodied-AI.
               </p>
 
               <p style="text-align:center">
@@ -71,7 +74,7 @@
         <hr>
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
@@ -82,7 +85,23 @@
               </p>
             </td>
           </tr>
-        </tbody></table>
+        </tbody></table> -->
+
+        <!-- News -->
+        <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tr>
+          <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <heading>News</heading>
+            <ul>
+              <li>08/2024: Accepted for <b>UW + Amazon Science Hub Fellowship</b> (1 year of funding)</li>
+              <li>06/2024: Starting my internship with the PRIOR team at <a href="https://allenai.org/">Allen Institute for AI (AI2)</a></li>
+              <li>01/2024: <i>"Selective Visual Representations Improve Convergence and Generalization for Embodied-AI"</i> has been accepted as <b>ICLR 2024 [Spotlight, 5%]</b></li>
+              <li>06/2023: Starting my internship with the PRIOR team at <a href="https://allenai.org/">Allen Institute for AI (AI2)</a></li>
+              
+          </td>
+        </tr>
+      </table>
 
 
         <!-- Papers Header -->
@@ -99,53 +118,111 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="codebook_stop()" onmouseover="codebook_start()">
+          <tr onmouseout="RING_stop()" onmouseover="RING_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='codebook_image'>
-                  <img src='images/codebook_teaser.png' width="180"></div>
-                <img src='images/codebook_teaser.png' width="180">
+                <div class="two" id='RING_img'>
+                  <img src='images/RING_teaser.gif' width="180"></div>
+                <img src='images/RING_teaser.gif' width="180">
               </div>
               <script type="text/javascript">
-                function codebook_start() {
-                  document.getElementById('codebook_image').style.opacity = "1";
+                function RING_start() {
+                  document.getElementById('RING_img').style.opacity = "1";
                 }
 
-                function codebook_stop() {
-                  document.getElementById('codebook_image').style.opacity = "0";
+                function RING_stop() {
+                  document.getElementById('RING_img').style.opacity = "0";
                 }
-                codebook_stop()
+                RING_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/pdf/2311.04193.pdf">
-                <papertitle>Selective Visual Representations Improve Convergence and Generalization for Embodied-AI</papertitle>
+                <papertitle>The One <span style="display: inline-flex; align-items: center;">
+                  RING <img src="images/RING_logo.png" alt="Logo" style="height: 16px; margin-left: 4px;" />
+                </span>: a Robotic Indoor Navigation Generalist</papertitle>
               </a>
               <br>
-              <strong>Ainaz Eftekhar*</strong>,
-              <a href="https://kuohaozeng.github.io//">Kuo-Hao Zeng*</a>,
-              <a href="https://duanjiafei.com/">Jiafei Duan</a>,
+              <strong>Ainaz Eftekhar</strong>,
+              <a href="https://lucaweihs.github.io//">Luca Weihs</a>,
+              <a href="https://rosehendrix.com/">Rose Hendrix</a>,
+              <a href="">Ege Caglar</a>,
+              <a href="https://scholar.google.de/citations?user=YuRVs2oAAAAJ&hl=en">Jordi Salvador</a>,
+              <a href="https://scholar.google.de/citations?user=89Knd5YAAAAJ&hl=en">Alvaro Herrasti</a>,
+              <a href="https://winsonhan.com/about">Winson Han</a>,
+              <a href="https://scholar.google.com/citations?user=RQDywYwAAAAJ&hl=en">Eli VanderBilt</a>,
+              <a href="https://anikem.github.io/">Aniruddha Kembhavi</a>,
               <a href="https://homes.cs.washington.edu/~ali//">Ali Farhadi</a>,
-              <a href="https://anikem.github.io//">Ani Kembhavi</a>,
               <a href="http://www.ranjaykrishna.com/index.html">Ranjay Krishna</a>
+              <a href="https://ehsanik.github.io/">Kiana Ehsani*</a>,
+              <a href="https://kuohaozeng.github.io//">Kuo-Hao Zeng*</a>
               <br>
-              <em><b>ICLR</b></em>, <b>2024 <span style="color: red;"> [Spotlight]</span></b>
+              <em><b>under submission</b></em>
               <br>
-              <a href="https://embodied-codebook.github.io/">project page</a>
+              <a href="https://embodied-codebook.github.io/">project page [coming soon]</a>
               /
-              <a href="https://arxiv.org/pdf/2311.04193.pdf">arXiv</a>
+              <a href="https://arxiv.org/pdf/2311.04193.pdf">arXiv [coming soon]</a>
               /
-              <a href="https://github.com/allenai/procthor-rl/tree/main">code</a>
+              <a href="https://github.com/allenai/procthor-rl/tree/main">code [coming soon]</a>
               <p></p>
               <p>
               <p></p>
               <p>
-                Inspired by selective attention in humans—the process through which people filter their perception
-                based on their experiences, knowledge, and the task at hand—we introduce a parameter-efficient approach
-                to filter visual stimuli for Embodied-AI.
+                RING is an embodiment-agnostic policy, trained solely in simulation with diverse randomly initialized embodiments at scale.
+                RING generalizes to diverse real-world embodiments despite being trained exclusively in simulation without access to the real robot configurations.
               </p>
             </td>
           </tr>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="codebook_stop()" onmouseover="codebook_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='codebook_image'>
+                    <img src='images/codebook_teaser.png' width="180"></div>
+                  <img src='images/codebook_teaser.png' width="180">
+                </div>
+                <script type="text/javascript">
+                  function codebook_start() {
+                    document.getElementById('codebook_image').style.opacity = "1";
+                  }
+  
+                  function codebook_stop() {
+                    document.getElementById('codebook_image').style.opacity = "0";
+                  }
+                  codebook_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2311.04193.pdf">
+                  <papertitle>Selective Visual Representations Improve Convergence and Generalization for Embodied-AI</papertitle>
+                </a>
+                <br>
+                <strong>Ainaz Eftekhar*</strong>,
+                <a href="https://kuohaozeng.github.io//">Kuo-Hao Zeng*</a>,
+                <a href="https://duanjiafei.com/">Jiafei Duan</a>,
+                <a href="https://homes.cs.washington.edu/~ali//">Ali Farhadi</a>,
+                <a href="https://anikem.github.io//">Ani Kembhavi</a>,
+                <a href="http://www.ranjaykrishna.com/index.html">Ranjay Krishna</a>
+                <br>
+                <em><b>ICLR</b></em>, <b>2024 <span style="color: red;"> [Spotlight]</span></b>
+                <br>
+                <a href="https://embodied-codebook.github.io/">project page</a>
+                /
+                <a href="https://arxiv.org/pdf/2311.04193.pdf">arXiv</a>
+                /
+                <a href="https://github.com/allenai/procthor-rl/tree/main">code</a>
+                <p></p>
+                <p>
+                <p></p>
+                <p>
+                  Inspired by selective attention in humans—the process through which people filter their perception
+                  based on their experiences, knowledge, and the task at hand—we introduce a parameter-efficient approach
+                  to filter visual stimuli for Embodied-AI.
+                </p>
+              </td>
+            </tr>
 
           
 
@@ -248,6 +325,7 @@ A self-supervised approach to Anomaly Detection.
           <td style="padding:2.5%;width:100%;vertical-align:middle">
             <heading>Honors & Awards</heading>
             <ul>
+              <li>2024: <b>UW + Amazon Science Hub Fellowship</b> (1 year of funding)</li>
               <li>2021: <b>EPFL Summer Research Fellowship:</b> Ecole polytechnique federale de Lausanne
               </li>
               <li>2020: <b>Top 5% Academic Ranking:</b> Sharif University of Technology</li>
