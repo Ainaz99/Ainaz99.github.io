@@ -22,10 +22,11 @@
               </p>
               <p>
                 I am a PhD student at the <a href="https://www.washington.edu">University of Washington</a> in Computer Science and Engineering  supervised by <a href="https://homes.cs.washington.edu/~ali/">Prof. Ali Farhadi</a>
-                and <a href="http://ranjaykrishna.com/index.html">Prof. Ranjay Krishna</a>  (<a href="https://raivn.cs.washington.edu/index.html">RAIVN Lab</a>).
+                and <a href="http://ranjaykrishna.com/index.html">Prof. Ranjay Krishna</a>  (<a href="https://raivn.cs.washington.edu/index.html">RAIVN Lab</a>). I'm also a graduate student researcher with <a href="https://prior.allenai.org/">PRIOR</a> team at the
+                <a href="https://allenai.org/">Allen Institute for AI (AI2)</a>.
               </p>
               <p>
-                In the summers of 2023 and 2024, I was a research intern with the <a href="https://prior.allenai.org/">PRIOR</a> team at the
+                In the summers of 2023 and 2024, I was a research intern with at the
                 <a href="https://allenai.org/">Allen Institute for AI (AI2)</a>, where I worked closely with
                 <a href="https://kuohaozeng.github.io/">Kuo-Hao Zeng</a> and
                 <a href="https://ehsanik.github.io/">Kiana Ehsani</a>.
@@ -37,7 +38,7 @@
 
               </p>
               <p>
-                My research interests lie in the intersection of computer vision, machine learning, and embodied-AI.
+                My research interests lie in the intersection of computer vision, machine learning, embodied-AI, and Robotics.
               </p>
 
               <p style="text-align:center">
@@ -118,6 +119,63 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="pointarena_stop()" onmouseover="pointarena_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='pointarena_img'>
+                  <img src='images/pointing.png' width="180"></div>
+                <img src='images/pointing.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function pointarena_start() {
+                  document.getElementById('pointarena_img').style.opacity = "1";
+                }
+
+                function pointarena_stop() {
+                  document.getElementById('pointarena_img').style.opacity = "0";
+                }
+                pointarena_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2505.09990">
+                <papertitle>Point Arena: Probing Multimodal Grounding Through Language-Guided Pointing</papertitle>
+              </a>
+              <br>
+              <a href="">Long Cheng*</a>,
+              <a href="https://duanjiafei.com/">Jiafei Duan*</a>,
+              <a href="https://helen9975.github.io/">Yi Ru Wang</a>,
+              <a href="https://hq-fang.github.io/">Haoquan Fang</a>,
+              <a href="">Boyang Li</a>,
+              <a href="">Yushan Huang</a>,
+              <a href="">Elvis Wang</a>,
+              <strong>Ainaz Eftekhar</strong>,
+              <a href="">Jason Lee</a>,
+              <a href="https://wentaoyuan.github.io/">Wentao Yuan</a>,
+              <a href="https://rosehendrix.com/">Rose Hendrix</a>,
+              <a href="https://nasmith.github.io/">Noah A. Smith</a>,
+              <a href="https://fxia22.github.io/">Fei Xia</a>,
+              <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a>,
+              <a href="https://www.ranjaykrishna.com/index.html">Ranjay Krishna</a>,
+              <br>
+              <em><b>ArXiv 2025 (in submission)</b></em>
+              <br>
+              <a href="https://pointarena.github.io/">project page</a>
+              /
+              <a href="https://arxiv.org/pdf/2505.09990">arXiv</a>
+              /
+              <a href="https://github.com/pointarena/pointarena">code</a>
+              <p></p>
+              <p>
+              <p></p>
+              <p>
+                PointArena is a comprehensive platform for evaluating multimodal pointing across diverse reasoning scenarios.
+              </p>
+            </td>
+          </tr>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="RING_stop()" onmouseover="RING_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -137,15 +195,16 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2311.04193.pdf">
+              <a href="https://arxiv.org/pdf/2412.14401v1">
                 <papertitle>The One <span style="display: inline-flex; align-items: center;">
                   RING <img src="images/RING_logo.png" alt="Logo" style="height: 16px; margin-left: 4px;" />
                 </span>: a Robotic Indoor Navigation Generalist</papertitle>
               </a>
               <br>
               <strong>Ainaz Eftekhar</strong>,
-              <a href="https://lucaweihs.github.io//">Luca Weihs</a>,
               <a href="https://rosehendrix.com/">Rose Hendrix</a>,
+              <a href="https://lucaweihs.github.io//">Luca Weihs</a>,
+              <a href="https://duanjiafei.com/">Jiafe Duan</a>,
               <a href="">Ege Caglar</a>,
               <a href="https://scholar.google.de/citations?user=YuRVs2oAAAAJ&hl=en">Jordi Salvador</a>,
               <a href="https://scholar.google.de/citations?user=89Knd5YAAAAJ&hl=en">Alvaro Herrasti</a>,
@@ -157,7 +216,7 @@
               <a href="https://ehsanik.github.io/">Kiana Ehsani*</a>,
               <a href="https://kuohaozeng.github.io//">Kuo-Hao Zeng*</a>
               <br>
-              <em><b>under submission</b></em>
+              <em><b>Arxiv 2025 (in submission)</b></em>
               <br>
               <a href="https://one-ring-policy.allen.ai/">project page</a>
               /
@@ -173,6 +232,7 @@
               </p>
             </td>
           </tr>
+
 
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
