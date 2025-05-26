@@ -119,6 +119,53 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="loki_stop()" onmouseover="loki_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='loki_img'>
+                  <img src='images/loki.gif' width="180"></div>
+                <img src='images/loki.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function loki_start() {
+                  document.getElementById('loki_img').style.opacity = "1";
+                }
+
+                function loki_stop() {
+                  document.getElementById('loki_img').style.opacity = "0";
+                }
+                loki_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Convergent Functions, Divergent Forms</papertitle>
+              </a>
+              <br>
+              <strong>Ainaz Eftekhar*</strong>,
+              <a href="">Hyeonseong Jeon</a><strong>*</strong>,
+              <a href="https://aaronwalsman.com/">Aaron Walsman</a>,
+              <a href="https://kuohaozeng.github.io//">Kuo-Hao Zeng</a>,
+              <a href="https://homes.cs.washington.edu/~ali//">Ali Farhadi</a>,
+              <a href="http://www.ranjaykrishna.com/index.html">Ranjay Krishna</a>
+              <br>
+              <em><b>ArXiv 2025 (in submission)</b></em>
+              <br>
+              <a href="https://loki-codesign.github.io/">project page</a>
+              /
+              <a href="">arXiv (coming soon)</a>
+              /
+              <a href="">code (coming soon)</a>
+              <p></p>
+              <p>
+              <p></p>
+              <p>
+                LOKI<img src="images/LOKI_green-old.png" class="no-darkmode-invert" alt="LOKI Logo" style="height: 1em; margin-left: 0.3em;"> (Locally Optimized Kinematic Instantiations) is a compute-efficient co-design framework that discovers diverse, high-performing robot morphologies (divergent forms) using shared control policies (convergent functions).
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="pointarena_stop()" onmouseover="pointarena_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
